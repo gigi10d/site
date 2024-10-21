@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ba0e0e; /* Vermelho do Sport */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.client-info {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #f5b32c; /* Amarelo do Sport */
+}
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+}
+
+.home-link {
+    text-decoration: none;
+    color: #f5b32c; /* Amarelo do Sport */
+    font-weight: bold;
+}
+
+.home-link:hover {
+    color: #ba0e0e; /* Vermelho do Sport */
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%; 
+    cursor: pointer;
+    background-color: #000; /* Preto para o botão */
+    border: none; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+.btn-menu:hover {
+    background-color: #f5b32c; /* Amarelo ao passar o mouse */
+}
+.shirts img {
+    max-width: 100%; /* Para que as imagens se ajustem ao contêiner */
+    height: auto;
+    margin: 10px 0; /* Espaçamento entre as imagens */
+    border-radius: 5px; /* Arredondar os cantos das imagens */
+}
